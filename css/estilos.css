@@ -1,0 +1,31 @@
+/*
+REGLAS CSS
+1. Aplicación de estilos en jerarquía
+- Etiquetas
+- Identificadores (unicos):
+	#Id{ 
+	}
+- Clases (grupos):
+	.Class{ 
+	}
+2. Los estilos se ordenan según disposición en archivo HTML
+3. Atributos
+	Tag, #Id, .Class {
+		atributo1: valor1;
+		atributo2: valor2;
+	} 
+4. Los atributos se ordenan alfabeticamente
+5. Si aplicamos estilos para etiquetas <html>, * (todos los elementos) y/o <body> son los primeros en definirse
+6. En <body> debemos declarar tamaño de fuente global (font-size: #;), ya que se toma como referencia para todo el texto de la página
+7. Si tenemos estilos para resetear elementos HTML, estos deben ir antes de cualquier estilo
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #000;
+	color: #FFF;
+	font-size: 16px;
+}
